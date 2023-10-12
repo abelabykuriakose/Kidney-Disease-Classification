@@ -1,2 +1,126 @@
 [2023-10-12 04:00:04,103: INFO: main: welcome to out custom classifier]
 [2023-10-12 04:03:34,962: INFO: main: welcome to out custom classifier]
+[2023-10-12 06:45:38,454: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-12 06:45:38,454: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 06:45:38,454: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\box\box.py", line 259, in __init__
+    raise BoxValueError("First argument must be mapping or iterable")
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\Kidney_disease-classification\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\config\configuration.py", line 16, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2023-10-12 06:46:14,772: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-12 06:46:14,772: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 06:46:14,772: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\box\box.py", line 259, in __init__
+    raise BoxValueError("First argument must be mapping or iterable")
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\Kidney_disease-classification\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\config\configuration.py", line 16, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2023-10-12 06:46:45,135: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-12 06:46:45,143: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 06:46:45,145: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-12 06:46:45,145: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\box\box.py", line 259, in __init__
+    raise BoxValueError("First argument must be mapping or iterable")
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\Kidney_disease-classification\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2023-10-12 06:47:32,754: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-12 06:47:32,769: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 06:47:32,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-12 06:47:32,769: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\box\box.py", line 259, in __init__
+    raise BoxValueError("First argument must be mapping or iterable")
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\Kidney_disease-classification\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\kidney_disease-classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2023-10-12 06:49:59,958: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-12 06:49:59,958: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 06:49:59,974: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-12 06:49:59,974: INFO: common: created directory at: artifacts]
+[2023-10-12 06:49:59,974: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-12 06:49:59,974: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/16SBCAsa1qUuB-EIRhOSaYNZriODt3ej3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-12 06:53:48,593: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/16SBCAsa1qUuB-EIRhOSaYNZriODt3ej3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-12 06:54:16,196: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
